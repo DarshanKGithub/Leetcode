@@ -13,8 +13,8 @@ public class LinearSearch {
     }
 
     public static void main(String[] args){
-        int[] arr = {2,4,8,9,6,3,0};
-        int target = 9;
+        int[] arr = {2,4,8,-1,9,6,3,0};
+        int target = -1;
         int result = linearSearch(arr, target);
         System.out.println("Target found at index : " + result);
     }
