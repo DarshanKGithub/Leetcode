@@ -1,5 +1,7 @@
 package Leetcode;
 
+
+
 public class RemoveDuplicate {
 
     static int removeDuplicate(int[] arr){
