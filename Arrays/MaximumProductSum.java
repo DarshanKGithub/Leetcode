@@ -18,7 +18,7 @@ public class MaximumProductSum {
             leftproduct *= arr[i];
 
             //suffix sum
-            rightproduct = arr[n - 1 - i];
+            rightproduct *= arr[n - 1 - i];
 
             ans = Math.max(ans, Math.max(leftproduct, rightproduct));
         }

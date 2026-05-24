@@ -10,7 +10,8 @@ public class SelectionSort {
  
             for(int j = i + 1; j < len; j++){
                 if(arr[j] < arr[min_idx]){
-                    min_idx = j;                }
+                    min_idx = j; //Index update
+                    }
             }
 
             //swap 

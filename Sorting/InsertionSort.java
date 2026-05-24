@@ -9,7 +9,7 @@ public class InsertionSort {
 
             int current = arr[i];
 
-            //previous element checl
+            //previous element check
             int j = i - 1;
 
             while( j >= 0 && arr[j] > current){
