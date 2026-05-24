@@ -3,7 +3,7 @@ package Searching;
 public class BinarySearch {
 
     static int binarySearch(int[] arr, int target){
-        int len = arr.length;
+        // int len = arr.length;
         //Two pointer approach
         int right = arr.length - 1;
         int left = 0;
